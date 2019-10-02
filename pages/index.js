@@ -13,6 +13,7 @@ const HomePage = props => {
     <Layout title={title}>
       <h1> {'ECOM GIANT'}</h1>
       <Portfolio />
+      <h3> {'Today Offers'}</h3>
       <ProductList limit={30} />
     </Layout>
   )

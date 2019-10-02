@@ -56,4 +56,8 @@ export const GlobalStyled = createGlobalStyle`
   ::selection {
     background: transparent;
   }
+
+  h1, h3 {
+    text-align: center;
+  }
 `
