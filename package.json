@@ -1,5 +1,5 @@
 {
-  "name": "bksketchbook",
+  "name": "react-ecom-nextjs",
   "version": "1.0.0",
   "description": "Deploy Next.js server-side React apps to Heroku",
   "scripts": {

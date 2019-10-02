@@ -13,7 +13,7 @@ class Portfolio extends React.PureComponent {
 
   static defaultProps = {
     className: '',
-    response: '//ntryogep.sirv.com/pencil-sketch/gallary.json',
+    response: '//ntryogep.sirv.com/ecom/banner.json',
   }
   async componentDidMount() {
     const { response } = this.props
@@ -29,7 +29,6 @@ class Portfolio extends React.PureComponent {
     const { className } = this.props
     return (
       <Main className={className}>
-        <h1>{'Portfolio'}</h1>
         <CaroselImages response={this.state.portfolio} />
       </Main>
     )

@@ -1,21 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Layout } from '../layout'
-import { Header, About, Contact, Portfolio } from '../components'
+import { Portfolio, ProductList } from '../components'
 const StyledStaticBanner = styled.img`
   width: 100%;
 `
 
 const HomePage = props => {
-  const { title = 'BK' } = props
+  const { title = 'PLP' } = props
 
   return (
     <Layout title={title}>
-      <Header />
-      <StyledStaticBanner src="//ntryogep.sirv.com/pencil-sketch/banner_01.jpg" />
+      <h1> {'ECOM GIANT'}</h1>
       <Portfolio />
-      <About />
-      <Contact />
+      <ProductList limit={30} />
     </Layout>
   )
 }

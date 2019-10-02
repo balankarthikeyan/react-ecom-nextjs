@@ -11,12 +11,11 @@ const CaroselImages = props => {
     return (
       <StyledImageKit>
         <img className={'carosel-image'} src={item.image} />
-        <StyledDescription className="legend">MyWork {i + 1}</StyledDescription>
       </StyledImageKit>
     )
   })
   return (
-    <StyledCarosel autoPlay={false} showIndicators={false}>
+    <StyledCarosel autoPlay={true} showIndicators={true}>
       {ImageList}
     </StyledCarosel>
   )

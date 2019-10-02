@@ -5,7 +5,6 @@ import { media } from '../../styles'
 const Main = styled.div`
   margin: auto;
   width: 100%;
-  max-width: 1200px;
 
   h1 {
     font-size: 70px;
@@ -21,7 +20,7 @@ const StyledCarosel = styled(Carousel)`
   `}
   width: 100%;
   height: fit-content;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 
   .carousel.carousel-slider {
     height: 100%;
@@ -40,10 +39,10 @@ const StyledCarosel = styled(Carousel)`
 const StyledImageKit = styled.div`
   height: 100%;
 
-  img {
+  /* img {
     width: auto !important;
     height: 500px;
-  }
+  } */
 `
 const StyledDescription = styled.p``
 
